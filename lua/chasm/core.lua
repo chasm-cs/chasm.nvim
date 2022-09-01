@@ -4,10 +4,10 @@ local function get_chasm()
   return {
     background = "#0F111A",
     contrast = '#0f151a',
-    statusline_bg = '#0F111A',
+    statusline_bg = '#0f111b',
     lighter = '#464B5D',
     foreground = "#EEFFFF",
-    cursorline = '#0f151a',
+    cursorline = '#0f111b',
     comments = '#464B5D',
     cursor = "#EEFFFF",
     color0  = '#464B5D',
