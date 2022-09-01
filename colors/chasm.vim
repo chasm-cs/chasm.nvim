@@ -1,5 +1,5 @@
 lua << EOF
-require('decay').setup({
+require('chasm').setup({
   style = 'normal',
   italics = {
     code = false,
