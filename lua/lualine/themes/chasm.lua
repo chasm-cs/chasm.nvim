@@ -10,9 +10,9 @@ decay.normal = {
 }
 
 decay.insert = {
-  a = { bg = colors.color2, fg = colors.background },
+  a = { bg = colors.color2, fg = colors.foreground },
   b = { bg = colors.lighter, fg = colors.foreground },
-  c = { bg = colors.statusline_bg, fg = colors.statusline_bg },
+  c = { bg = colors.statusline_bg, fg = colors.foreground },
 }
 
 decay.command = {
