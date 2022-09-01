@@ -1,4 +1,4 @@
-local core = require('decay.core')
+local core = require('chasm.core')
 local colors = core.get_colors(vim.g.decay_style)
 
 local decay = {}
