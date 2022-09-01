@@ -1,5 +1,5 @@
 local M = {}
-local config = require('decay.config')
+local config = require('chasm.config')
 
 local hi = function (...)
     vim.api.nvim_set_hl(0, ...)
@@ -36,7 +36,7 @@ function M.highlight_all(colors, opts)
        hi(item, { italic = true, fg = colors.comments })
      end
   end
-  if vim.g.decay_cmp_block_kind then
+  if vim.g.chasm_cmp_block_kind then
      local tohi = {
         Pmenu = { fg = colors.foreground, bg = colors.contrast },
         PmenuSel = { bg = colors.lighter, fg = "NONE" },
